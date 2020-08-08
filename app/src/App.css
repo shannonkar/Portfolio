@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Muli');
+* {
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: 'Muli';
+  text-decoration: none;
+}
+.container{
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0.2fr 2fr 1.2fr 0.8fr;
+  grid-gap: 10px;
+  grid-template-areas: 
+      "nav nav nav nav" 
+      "about about about about"
+      "tech tech tech tech"
+}
+.navbar{
+  background-color:white;
+  position: sticky;
+   top: 0px;
+  width: 100%;
+  box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15);
+  align-items: center;
+  display: block;
+  text-align: left;
+  padding: 0.5em;
+  height: 60px;
+  grid-area: nav;
+  }
+  .navbar-logo {
+  height: 80px;
+  width: 100px;
+  float: left;
+}
+.navbar-logo:hover {
+  cursor: pointer;
+}
+
+.navbar .navbar-content {
+  margin: 0px 20px 0px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 90%;
+ 
+ 
+}
+.navbar-item {
+  display: inline;
+  margin-left: 2rem;
+  color: #333;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+
+.navbar-item:hover {
+  color: black;
+  cursor: pointer;
+}
+.navbar > .active {
+  background-color: #DCDCDC;
+}
+
+/*CSS for logo icon*/
+.navbar-brand{
+  display: flex;
+  align-items:center;
+}
+.navbar-brand >img{
+  padding: 7px 14px;
+}
+.about{
+  
+  display: grid;
+  grid-area: about;
+}
+.projects{
+   background-color: rgba(0, 250, 0, 0.15)
+}
+.experience{
+   background-color: rgba(0, 0, 250, 0.15)
+}
+.education{
+   background-color: rgba(0.15, 250, 0,10)
+}
+.techStack{
+   background-color: rgba(250, 0, 250, 0.15);
+   grid-area: tech;
+}
+.footer{
+   background-color: rgba(250, 250, 0, 0.15)
+}
+.avatar{
+    grid-column: 1 / 2;
+    height: 250px;
+    margin-left: 75px;
+    border-radius: 50%/50%;
+    margin-top: 40px;
+}
+.aboutText{
+   width: 75%;
+    margin: auto;
+    padding-top: 1em;
+    grid-column: 2/4;
+}
+.links{
+  display: flex;
+  justify-content: space-around;
+}
+
+
