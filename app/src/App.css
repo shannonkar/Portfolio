@@ -5,6 +5,7 @@
   box-sizing: border-box;
   font-family: 'Muli';
   text-decoration: none;
+ 
 }
 ul {
  list-style: none;
@@ -16,7 +17,7 @@ li{
   display: grid;
   height: 100%;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 0.3fr 0.5fr 0.5fr 1.7fr 0.5fr 0.5fr;
+  grid-template-rows: auto 1fr 0.5fr 1.7fr 0.5fr 0.5fr 0.1fr;
   grid-gap: 10px;
   grid-template-areas: 
       "nav nav nav nav" 
@@ -25,11 +26,13 @@ li{
       "projects projects projects projects"
       "experience experience experience experience"
       "education education education education"
+      "footer footer footer footer"
+
 }
 .navbar{
   background-color:white;
   position: sticky;
-   top: 0px;
+  top: 0px;
   width: 100%;
   box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15);
   align-items: center;
@@ -84,8 +87,21 @@ li{
 .about{
   display: grid;
   grid-area: about;
-
-
+  align-items: center;
+}
+.about .aboutText .social-media{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+.about .aboutText .social-media .icon {
+  padding-top: 10px;
+}
+.about .aboutText .social-media .icon a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: bold;
+  margin-left: 5px;
 }
 .projects{
    grid-area: projects;
@@ -108,44 +124,47 @@ li{
 }
 .education{
    grid-area: education;
+   font-size: 16px;
 }
 
 
 .avatar{
-    grid-column: 1 / 2;
-    height: 250px;
-    margin-left: 75px;
-    border-radius: 50%/50%;
-    margin-top: 40px;
+      grid-column: 1 / 2;
+      height: 50%;
+      width: 250px;
+      margin-left: 40px;
+      border-radius:50%;
 }
 .aboutText{
    width: 75%;
     margin: auto;
     padding-top: 1em;
     grid-column: 2/4;
+    font-size: 16px;
 }
-.links{
-  display: flex;
-  justify-content: space-around;
+.about .aboutText .summary{
+  font-weight: bold;
 }
 .projects >h2,
 .aboutText >h2, 
 .experience >h2,
+.technologies >h2,
 .education > h2{
    margin-bottom: 0;
    margin-top: 0;
    text-align: left;
 }
-.projects > span,
-.experience > span,
-.education > span{
-  padding: 0;
-  margin: 0;
+.projects >span,
+.aboutText >span,
+.experience >span,
+.education > span,
+.technologies > span{
+  display: block;
   width: 70px;
-  border-bottom: 4px solid;
+  border-bottom: 4px solid black ;
   z-index: 1;
   margin-bottom: 1.2em;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 .projects {
   padding: 20px;
@@ -201,6 +220,7 @@ background: url('./Moodify.png')
   padding: 20px;
   text-align: left;
   grid-area: experience;
+  font-size: 16px;
 }
 .experience .exp{
   display: flex;
@@ -214,12 +234,6 @@ background: url('./Moodify.png')
 }
 .experience .exp .date {
   font-style: italic;
-}
-.experience .exp .role .icon,
-.experience .exp .company .icon,
-.experience .exp .date .icon {
-  margin-right: 5px;
-  padding-right: 5px;
 }
 .education{
   padding: 20px;
@@ -239,12 +253,19 @@ background: url('./Moodify.png')
 .education .edu .date {
   font-style: italic;
 }
-.education .edu .course .icon,
-.education .edu .school .icon,
-.education .edu .date .icon
-{
-  margin-right: 5px;
+
+.icon{
+   margin-right: 5px;
   padding-right: 5px;
+
+}
+.footer{
+  grid-area: footer;
+  display: flex;
+  justify-content: center;
+}
+.footer > span{
+  opacity: 0.5;
 }
 
 

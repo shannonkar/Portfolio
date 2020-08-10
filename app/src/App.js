@@ -6,6 +6,8 @@ import Projects from './components/Projects';
 import Education from './components/Education';
 import Experience from './components/Experience';
 import Technologies from './components/Technologies';
+import Footer from './components/Footer';
+
 
 function App() {
   return (
@@ -16,6 +18,7 @@ function App() {
        <Projects />
       <Experience />
       <Education />
+      <Footer />
     </div>
   );
 }

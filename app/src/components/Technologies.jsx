@@ -10,6 +10,7 @@ import redux from "../assets/images/redux.svg";
 const Technologies = () => (
 <div className = "technologies" id = "technologies">
 	<h2>Technologies </h2>
+	<span></span>
 	<div className="content">
 		<div className="skills_one"> 
 	    <div className="skills_images"> 
