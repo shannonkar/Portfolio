@@ -29,19 +29,32 @@ class Navbar extends Component{
 					<li className="navbar-item">
 					<Link
 						activeClass = "active"
-						to="main"
+						to="technologies"
 						spy={true}
 						navWidth={600}
 						offset={-70}
 						duration = {500}
-					>TECH STACK
+					>TECHNOLOGIES
 					</Link>
 					</li>
 
 					<li className="navbar-item">
 					<Link
 						activeClass = "active"
-						to="learning"
+						to="projects"
+						spy={true}
+						navWidth={600}
+						offset={-70}
+						duration = {500}
+					>
+						PROJECTS
+					</Link>
+					</li>
+
+					<li className="navbar-item">
+					<Link
+						activeClass = "active"
+						to="experience"
 						spy={true}
 						navWidth={600}
 						offset={-70}
@@ -50,29 +63,16 @@ class Navbar extends Component{
 						EXPERIENCE
 					</Link>
 					</li>
-
 					<li className="navbar-item">
 					<Link
 						activeClass = "active"
-						to="bigtext"
+						to="education"
 						spy={true}
 						navWidth={600}
 						offset={-70}
 						duration = {500}
 					>
 						EDUCATION
-					</Link>
-					</li>
-					<li className="navbar-item">
-					<Link
-						activeClass = "active"
-						to="bigtext"
-						spy={true}
-						navWidth={600}
-						offset={-70}
-						duration = {500}
-					>
-						PROJECTS
 					</Link>
 					</li>
 				</ul>

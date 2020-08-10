@@ -9,8 +9,7 @@ import { faFileDownload} from '@fortawesome/free-solid-svg-icons'
 
 function About(){
 	return (
-		<div className= "about">
-			
+		<div className= "about" id="about">
 				<img
 				  className= "avatar"
 	              src= {require('../profilepic.png')}

@@ -1,21 +1,30 @@
+
 @import url('https://fonts.googleapis.com/css?family=Muli');
 * {
   padding: 0;
   box-sizing: border-box;
-  text-align: center;
   font-family: 'Muli';
   text-decoration: none;
 }
+ul {
+ list-style: none;
+}
+li{
+   margin: 5px 0;
+}
 .container{
   display: grid;
-  height: 100vh;
+  height: 100%;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 0.2fr 2fr 1.2fr 0.8fr;
+  grid-template-rows: 0.3fr 0.5fr 0.5fr 1.7fr 0.5fr 0.5fr;
   grid-gap: 10px;
   grid-template-areas: 
       "nav nav nav nav" 
       "about about about about"
       "tech tech tech tech"
+      "projects projects projects projects"
+      "experience experience experience experience"
+      "education education education education"
 }
 .navbar{
   background-color:white;
@@ -46,8 +55,6 @@
   align-items: center;
   height: 100%;
   width: 90%;
- 
- 
 }
 .navbar-item {
   display: inline;
@@ -75,26 +82,35 @@
   padding: 7px 14px;
 }
 .about{
-  
   display: grid;
   grid-area: about;
+
+
 }
 .projects{
-   background-color: rgba(0, 250, 0, 0.15)
+   grid-area: projects;
+   text-align: center;
 }
-.experience{
-   background-color: rgba(0, 0, 250, 0.15)
+.technologies{
+   grid-area: tech;
+   padding: 20px;
+}
+.technologies .content .skills_one .skills_images{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+}
+.skills_image{
+  width: 100px;
 }
 .education{
-   background-color: rgba(0.15, 250, 0,10)
+   grid-area: education;
 }
-.techStack{
-   background-color: rgba(250, 0, 250, 0.15);
-   grid-area: tech;
-}
-.footer{
-   background-color: rgba(250, 250, 0, 0.15)
-}
+
+
 .avatar{
     grid-column: 1 / 2;
     height: 250px;
@@ -112,5 +128,130 @@
   display: flex;
   justify-content: space-around;
 }
+.projects >h2,
+.aboutText >h2, 
+.experience >h2,
+.education > h2{
+   margin-bottom: 0;
+   margin-top: 0;
+   text-align: left;
+}
+.projects > span,
+.experience > span,
+.education > span{
+  padding: 0;
+  margin: 0;
+  width: 70px;
+  border-bottom: 4px solid;
+  z-index: 1;
+  margin-bottom: 1.2em;
+  border-radius: 5px;
+}
+.projects {
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.projects .project-section {
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  align-self: center;
+  justify-content: space-between;
+}
+.projects h2{
+  display: block;
+}
+.projects .project-section .content {
+  width: 400px;
+  margin: 10px;
+  box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15);
+
+}
+.projects .background {
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  cursor: pointer;
+}
+
+.projects .project-section .content .info {
+  height: 200px;
+  width: 100%;
+  padding: 10px;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  cursor: pointer;
+  border-radius: 5px 5px 0 0;
+}
+.projects .project-section .content .first {
+background: url('./Moodify.png')
+
+}
+.projects .project-section .content .second{
+   background: url('./jumpiana.png')
+} 
+.projects .project-section .content .third{
+ 
+} 
+.projects .project-section .content .fourth{
+} 
+.experience{
+  padding: 20px;
+  text-align: left;
+  grid-area: experience;
+}
+.experience .exp{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 5px;
+}
+
+.experience .exp .role {
+  font-weight: bold;
+}
+.experience .exp .date {
+  font-style: italic;
+}
+.experience .exp .role .icon,
+.experience .exp .company .icon,
+.experience .exp .date .icon {
+  margin-right: 5px;
+  padding-right: 5px;
+}
+.education{
+  padding: 20px;
+  text-align: left;
+  grid-area: education;
+}
+.education .edu{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 5px;
+}
+
+.education .edu .course {
+  font-weight: bold;
+}
+.education .edu .date {
+  font-style: italic;
+}
+.education .edu .course .icon,
+.education .edu .school .icon,
+.education .edu .date .icon
+{
+  margin-right: 5px;
+  padding-right: 5px;
+}
+
+
+
+
+
+
+
 
 

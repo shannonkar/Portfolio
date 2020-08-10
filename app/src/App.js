@@ -3,21 +3,19 @@ import './App.css';
 import Navbar from './components/Navbar';
 import About from './components/About';
 import Projects from './components/Projects';
-import Footer from './components/Footer';
 import Education from './components/Education';
 import Experience from './components/Experience';
-import TechStack from './components/TechStack';
+import Technologies from './components/Technologies';
 
 function App() {
   return (
     <div className="container">
       <Navbar />
       <About />
-      <TechStack />
-      <Education />
+      <Technologies />
+       <Projects />
       <Experience />
-      <Projects />
-      <Footer />
+      <Education />
     </div>
   );
 }
