@@ -13,7 +13,7 @@ function Education(){
 	                Villanova University, PA</span>
 	            <span className="date"><FontAwesomeIcon className = "icon" icon={faClock}/>
 	                Aug 2016 - May 2020</span>
-	            <ul classNameName="description">
+	            <ul className="description">
 	            	<li> Magna cum laude: GPA 3.8 </li>
 	           		<li> Member of Upsilon Pi Epsilon: International Honor Society for the Computing and Information Disciplines</li>
 	            	<li> Recipient of the Freshman Match Research Program Award where I served as a research assistant for a study on student activism on college campuses</li>
@@ -30,8 +30,8 @@ function Education(){
                 Jan 2019 - May 2019</span>
             <ul className="description">
 	            	<li> Courses Taken: Game Development and Design, Introduction to Danish, Photojournalism, Innovation Through Design Thinking </li>
-	           		<li> Student Blogger for the Computer Science course </li>
-	           		<li>Collaborated in a group for 4 students and used Design Thinking to creatively implement a toolbox of life skills that young adults require to navigate post-school life</li>
+	           		<li><a href= "https://copenhagenadventures.home.blog/" target="_blank" className="website-link" rel="noopener noreferrer"> Student Blogger </a>for the Computer Science course </li>
+	           		<li>Collaborated in a group for 4 students and used <a href= "https://medium.com/@shannonmakenna/design-thinking-5fd959fbcaaf" target="_blank" className="website-link" rel="noopener noreferrer"> Design Thinking </a>to creatively implement a toolbox of life skills that young adults require to navigate post-school life</li>
             </ul>
         </div>
     </div>

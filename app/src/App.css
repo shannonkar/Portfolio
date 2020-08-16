@@ -5,14 +5,15 @@
   box-sizing: border-box;
   font-family: 'Muli';
   text-decoration: none;
- 
 }
+
 ul {
  list-style: none;
 }
 li{
    margin: 5px 0;
 }
+{/*Container*/}
 .container{
   display: grid;
   height: 100%;
@@ -29,6 +30,7 @@ li{
       "footer footer footer footer"
 
 }
+{/*Navbar*/}
 .navbar{
   background-color:white;
   position: sticky;
@@ -42,15 +44,6 @@ li{
   height: 60px;
   grid-area: nav;
   }
-  .navbar-logo {
-  height: 80px;
-  width: 100px;
-  float: left;
-}
-.navbar-logo:hover {
-  cursor: pointer;
-}
-
 .navbar .navbar-content {
   margin: 0px 20px 0px 20px;
   display: flex;
@@ -67,46 +60,15 @@ li{
   font-weight: bold;
 }
 
-
 .navbar-item:hover {
-  color: black;
   cursor: pointer;
-}
-.navbar > .active {
-  background-color: #DCDCDC;
-}
 
-/*CSS for logo icon*/
-.navbar-brand{
-  display: flex;
-  align-items:center;
 }
-.navbar-brand >img{
-  padding: 7px 14px;
-}
-.about{
-  display: grid;
-  grid-area: about;
-  align-items: center;
-}
-.about .aboutText .social-media{
-   display: flex;
-   justify-content: space-around;
-   align-items: center;
-}
-.about .aboutText .social-media .icon {
-  padding-top: 10px;
-}
-.about .aboutText .social-media .icon a {
-  text-decoration: none;
-  color: inherit;
-  font-weight: bold;
-  margin-left: 5px;
-}
-.projects{
-   grid-area: projects;
-   text-align: center;
-}
+.burger-menu{
+    display:none;
+    border-radius: 10px; 
+  }
+{/*Technologies*/}
 .technologies{
    grid-area: tech;
    padding: 20px;
@@ -119,15 +81,7 @@ li{
   justify-content: space-around;
   padding: 10px;
 }
-.skills_image{
-  width: 100px;
-}
-.education{
-   grid-area: education;
-   font-size: 16px;
-}
-
-
+{/*About*/}
 .avatar{
       grid-column: 1 / 2;
       height: 50%;
@@ -135,7 +89,14 @@ li{
       margin-left: 40px;
       border-radius:50%;
 }
-.aboutText{
+.about{
+  display: grid;
+  grid-area: about;
+  align-items: center;
+  padding: 20px;
+  width:100%;
+}
+ .about .aboutText{
    width: 75%;
     margin: auto;
     padding-top: 1em;
@@ -144,6 +105,62 @@ li{
 }
 .about .aboutText .summary{
   font-weight: bold;
+}
+.about .aboutText .social-media{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-wrap: wrap;
+
+}
+.about .aboutText .social-media .icon {
+  padding-top: 10px;
+}
+.about .aboutText .social-media .icon a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: bold;
+  margin-left: 5px;
+}
+{/*Projects*/}
+.projects{
+   grid-area: projects;
+   padding: 20px;
+  margin-top: 30px;
+}
+.projects .project-section {
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  align-self: center;
+  justify-content: space-between;
+}
+
+
+.projects .project-section .content {
+  width: 400px;
+  margin: 10px;
+  box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15);
+  font-size: 12px;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.projects .background {
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  cursor: pointer;
+}
+.projects .project-section .content .info {
+  height: 200px;
+  width: 100%;
+  padding: 10px;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  cursor: pointer;
+  border-radius: 5px 5px 0 0;
 }
 .projects >h2,
 .aboutText >h2, 
@@ -166,56 +183,52 @@ li{
   margin-bottom: 1.2em;
   border-radius: 10px;
 }
-.projects {
-  padding: 20px;
-  margin-top: 30px;
-}
-
-.projects .project-section {
-  padding: 5px;
-  display: flex;
-  flex-wrap: wrap;
-  align-self: center;
-  justify-content: space-between;
-}
-.projects h2{
-  display: block;
-}
-.projects .project-section .content {
-  width: 400px;
-  margin: 10px;
-  box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15);
-
-}
-.projects .background {
-  background-size: cover !important;
-  background-position: center !important;
-  background-repeat: no-repeat !important;
-  cursor: pointer;
-}
-
-.projects .project-section .content .info {
-  height: 200px;
-  width: 100%;
-  padding: 10px;
-  background-size: cover !important;
-  background-position: center !important;
-  background-repeat: no-repeat !important;
-  cursor: pointer;
-  border-radius: 5px 5px 0 0;
-}
 .projects .project-section .content .first {
-background: url('./Moodify.png')
-
+  background: url('./assets/images/steamlabke.png');
 }
 .projects .project-section .content .second{
-   background: url('./jumpiana.png')
+   background: url('./assets/images/portfolio.png');
 } 
 .projects .project-section .content .third{
- 
+  background: url('./assets/images/moodify.png');
 } 
 .projects .project-section .content .fourth{
+   background: url('./assets/images/jumpiana.png');
 } 
+.projects .project-section .content .fifth{
+   background: url('./assets/images/jumpiana.png');
+} 
+.projects .project-section .content .sixth{
+   background: url('./assets/images/faceRecognition.png');
+} 
+.projects .project-section .content .project_footer .project_links{
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  align-items: center;
+}
+
+.projects .project-section .content .project_footer .project_links a{
+  align-self: flex-end;
+  cursor: pointer;
+  text-align: center;
+  color: white;
+  font-size: 12px;
+  background-color: #4183c4;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.projects .project-section .content .project_footer .project_links a:hover{
+  background-color: #326AA2;
+}
+.projects .project-section .content .project_footer > h3{
+  padding-top: 10px;
+}
+
+{/*Experience*/}
+
 .experience{
   padding: 20px;
   text-align: left;
@@ -235,10 +248,15 @@ background: url('./Moodify.png')
 .experience .exp .date {
   font-style: italic;
 }
+.skills_image{
+  width: 100px;
+}
+{/*Education*/}
 .education{
+   grid-area: education;
+   font-size: 16px;
   padding: 20px;
   text-align: left;
-  grid-area: education;
 }
 .education .edu{
   display: flex;
@@ -246,7 +264,6 @@ background: url('./Moodify.png')
   flex-wrap: wrap;
   padding: 5px;
 }
-
 .education .edu .course {
   font-weight: bold;
 }
@@ -254,11 +271,7 @@ background: url('./Moodify.png')
   font-style: italic;
 }
 
-.icon{
-   margin-right: 5px;
-  padding-right: 5px;
-
-}
+{/*Footer*/}
 .footer{
   grid-area: footer;
   display: flex;
@@ -267,6 +280,65 @@ background: url('./Moodify.png')
 .footer > span{
   opacity: 0.5;
 }
+{/*icons & website-link*/}
+.icon{
+   margin-right: 5px;
+  padding-right: 5px;
+  } 
+.website-link:hover{
+ font-weight: bold;
+}
+
+@media screen and (max-width: 480px){
+  .container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(7, minmax(75px, auto));
+  }
+  .burger-menu{
+    display: flex;
+    flex-flow: column nowrap;
+  }
+  .navbar-items{
+     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+    flex-direction: column;
+    position: fixed;
+    top: 60px;
+    left: 65%;
+    text-align: center;
+    border-radius: 5px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+
+  }
+  .about{
+    flex-direction: column;
+    text-align: center;
+  }
+  .about .aboutText{
+    grid-column: 1/1;
+  }
+  .about .avatar{
+    width: 50%;
+    height: inherit;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+   .education .edu {
+      align-items: center;
+      text-align: center;
+      justify-self: center;
+  }
+  .experience .exp {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+}
+
+
 
 
 

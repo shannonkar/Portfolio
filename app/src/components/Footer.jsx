@@ -3,8 +3,8 @@ import React from 'react';
 function Footer(){
 	return (
 		<div className= "footer">
-		  <span class="footer_desc">Always Learning |  <a class="git_link" href="https://github.com/waynegakuo"
-                target="_blank" rel="noopener">Shannon M. Kariuki</a></span>
+		  <span className="footer_desc">Always Learning | <a className="website-link" href="https://github.com/shannonkar"
+                target="_blank" rel="noopener noreferrer">Shannon M. Kariuki</a></span>
 
 		</div>
 		)

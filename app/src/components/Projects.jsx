@@ -1,73 +1,90 @@
 import React from 'react';
-import { Card, CardTitle, CardText, CardActions, Button } from 'react-mdl';
+
 function Projects(){
 	return(
 		 <div className="projects" id="projects">
 		 <h2>Projects</h2> <span></span>
 	        <div className="project-section">
+
 	         <div className="content">
 	                <div className="first info background"></div>
-	                <div className="footer">
+	                <div className="project_footer">
 	                    <h3>STEAM-LAB KENYA</h3>
 	                    <p>Developed and maintain the STEAM-LAB KENYA website</p>
 						<p>Tech Stack: HTML5,CSS, React JS</p>
-	                    <a href="https://customerlist.netlify.app/" target="_blank" rel="noopener">Check it out</a>
-
-	                    <a>Github Repo </a>
+						<div className="project_links"> 
+							 <a href="http://www.steamlabke.com/" target="_blank" rel="noopener noreferrer">Check it out</a>
+							 <a href="https://github.com/shannonkar/STEAM-LAB" target="_blank" rel="noopener noreferrer">Github Repo </a>
+						</div>
+	                  
 	                </div>             
             </div>
+
+            	 <div className="content">
+	                <div className="second info background"></div>
+	                <div className="project_footer">
+	                    <h3>Personal Portfolio</h3>
+	                    <p>Created a simple and responsive portfolio that highlights my projects, experience, education, and tech stack</p>
+	                   <p>Tech Stack Used: React JS, HTML5, CSS</p>
+	                    <div className="project_links"> 
+							 <a href="" target="_blank" rel="noopener noreferrer">Check it out</a>
+							 <a href="https://github.com/shannonkar/Portfolio" target="_blank"  rel="noopener noreferrer">Github Repo </a>
+						</div>
+	                </div>             
+            </div>
+
 	            <div className="content">
-	                <div className="first info background"></div>
-	                <div className="footer">
+	                <div className="third info background"></div>
+	                <div className="project_footer">
 	                    <h3>Moodify</h3>
 	                    <p>Designed and implemented a website that generates song suggestions based on a user’s
 							mood.</p>
-						<p> HTML5, CSS, ReactJS, NodeJS</p>
-	                    <a href="https://customerlist.netlify.app/" target="_blank" rel="noopener">Check it out</a>
-
-	                    <a>Github Repo </a>
+						<p> Tech Stack: HTML5, CSS, ReactJS, NodeJS</p>
+	                    <div className="project_links"> 
+							 <a href="" target="_blank" rel="noopener noreferrer">Check it out</a>
+							 <a href="https://github.com/csc4790-fall2019/Moodify" target="_blank" rel="noopener noreferrer">Github Repo </a>
+						</div>
 	                </div>             
            		 </div>
 
                 <div className="content">
-	                <div className="second info background"></div>
-	                <div className="footer">
+	                <div className="fourth info background"></div>
+	                <div className="project_footer">
 	                    <h3>Jumpiana</h3>
 	                    <p>Collaborated in a team of 4 students to design, create and test code for a multi-level 2D platformer game.</p>
-	                    <p>Tech Stack Used: C#, Unity</p>
-	                    <a href="https://customerlist.netlify.app/" target="_blank" rel="noopener">Check it out</a>
+	                    <p>Tech Stack: C#, Unity</p>
+	                    <div className="project_links"> 
+							 <a href="http://dis.benno-lueders.de/2019SpringGames/2DPlatformer/Jumpiana/" target="_blank"  rel="noopener noreferrer">Check it out</a>
+							 <a href="https://github.com/shannonkar/Jumpiana-Platformer-Game-" target="_blank"  rel="noopener noreferrer">Github Repo </a>
+						</div>
 	                </div>             
             </div>
 
             <div className="content">
-	                <div className="third info background"></div>
-	                <div className="footer">
+	                <div className="fifth info background"></div>
+	                <div className="project_footer">
 	                    <h3>Expense Tracker</h3>
 	                    <p>Created a user-friendly expense tracker to help users manage their income and expenses easily</p>
-	                   <p>Tech Stack Used: React JS, Redux, HTML5, CSS</p>
-	                    <a href="https://customerlist.netlify.app/" target="_blank" rel="noopener">Check it out</a>
+	                   <p>Tech Stack: React JS, Redux, HTML5, CSS</p>
+	                    <div className="project_links"> 
+							 <a href=" https://shannonkar.github.io/ExpenseTracker/" target="_blank"  rel="noopener noreferrer">Check it out</a>
+							 <a href="https://github.com/shannonkar/ExpenseTracker" target="_blank"  rel="noopener noreferrer">Github Repo </a>
+						</div>
 	                </div>             
             </div>
 
                 <div className="content">
-	                <div className="third info background"></div>
-	                <div className="footer">
-	                    <h3>Contact Form</h3>
-	                    <p>Created a contact form with input validation as a project to learn React Hooks</p>
-	                   <p>Tech Stack Used: React JS, React Hooks, HTML5, CSS</p>
-	                    <a href="https://customerlist.netlify.app/" target="_blank" rel="noopener">Check it out</a>
-	                </div>             
-            </div>
-             
-
-                <div className="content">
-	                <div className="fourth info background"></div>
-	                <div className="footer">
+	                <div className="sixth info background"></div>
+	                <div className="project_footer">
 	                    <h3>Face Recognition App</h3>
 	                    <p>Created and deployed a website that registers and stores users in a PostgreSQl database and recognizes faces using Clarify API</p>
-	                    <p>Tech Stack Used:ReactJS, Node.js, PostgreSQL</p>
-	                    <a href="https://customerlist.netlify.app/" target="_blank" rel="noopener">Check it out</a>
-	                </div>             
+	                    <p>Tech Stack: ReactJS, Node.js, PostgreSQL</p>
+	                   <div className="project_links"> 
+							 <a href="https://vast-hollows-29726.herokuapp.com/" target="_blank"  rel="noopener noreferrer">Check it out</a>
+							 <a href="https://github.com/shannonkar/FaceRecognitionApp" target="_blank"  rel="noopener noreferrer"> Github Repo </a>
+						</div>
+	                </div>  
+
             </div>
            </div>
           </div>

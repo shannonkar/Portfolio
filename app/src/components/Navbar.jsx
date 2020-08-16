@@ -1,84 +1,27 @@
-import React, { Component } from "react";
-import logo from "../logo.jpeg";
-import {Link, animateScroll as scroll} from "react-scroll";
+import React,{useState, useEffect} from "react";
+import RightNav from './RightNav';
+import BurgerMenu from './BurgerMenu';
 
 
-class Navbar extends Component{
-	scrollToTop = () => {
-       scroll.scrollToTop(); 
-	};
-	render(){
+function Navbar(){
+	const [isDesktop, setDesktop] = useState(window.innerWidth > 480);
+
+  const updateMedia = () => {
+    setDesktop(window.innerWidth > 480);
+  };
+
+  useEffect(() => {
+    window.addEventListener("resize", updateMedia);
+    return () => window.removeEventListener("resize", updateMedia);
+  })
 		return(
 			<div className = "navbar" id="navbar">
 			<div className = "navbar-content">
 				<div>SHANNON M. KARIUKI</div>
-				<ul className="navbar-items">
-					<li className="navbar-item" >
-					<Link
-						activeClass = "active"
-						to="about"
-						spy={true}
-						navWidth={600}
-						offset={-70}
-						duration = {500}
-						>
-				 	ABOUT
-					</Link>
-					</li>
-
-					<li className="navbar-item">
-					<Link
-						activeClass = "active"
-						to="technologies"
-						spy={true}
-						navWidth={600}
-						offset={-70}
-						duration = {500}
-					>TECHNOLOGIES
-					</Link>
-					</li>
-
-					<li className="navbar-item">
-					<Link
-						activeClass = "active"
-						to="projects"
-						spy={true}
-						navWidth={600}
-						offset={-70}
-						duration = {500}
-					>
-						PROJECTS
-					</Link>
-					</li>
-
-					<li className="navbar-item">
-					<Link
-						activeClass = "active"
-						to="experience"
-						spy={true}
-						navWidth={600}
-						offset={-70}
-						duration = {500}
-					>
-						EXPERIENCE
-					</Link>
-					</li>
-					<li className="navbar-item">
-					<Link
-						activeClass = "active"
-						to="education"
-						spy={true}
-						navWidth={600}
-						offset={-70}
-						duration = {500}
-					>
-						EDUCATION
-					</Link>
-					</li>
-				</ul>
+				{isDesktop ? <RightNav />: <BurgerMenu />}
 			</div>
 	  		</div>
 		);
-	}
+	
 }
 export default Navbar;

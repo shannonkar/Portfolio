@@ -14,13 +14,13 @@ const Technologies = () => (
 	<div className="content">
 		<div className="skills_one"> 
 	    <div className="skills_images"> 
-	    	<img src ={java} className= "skills_image"/>
-	    	<img src ={react} className= "skills_image"/>
-	    	<img src ={html5} className= "skills_image"/>
-	    	<img src ={css} className= "skills_image"/>
-	    	<img src ={mysql} className= "skills_image"/>
-	    	<img src ={typescript} className= "skills_image"/>
-	    	<img src ={redux} className= "skills_image"/>
+	    	<img alt ="java" src ={java} className= "skills_image"/>
+	    	<img alt ="react"  src ={react} className= "skills_image"/>
+	    	<img alt ="html5" src ={html5} className= "skills_image"/>
+	    	<img alt ="css" src ={css} className= "skills_image"/>
+	    	<img alt ="mysql" src ={mysql} className= "skills_image"/>
+	    	<img alt ="typescript" src ={typescript} className= "skills_image"/>
+	    	<img alt ="redux" src ={redux} className= "skills_image"/>
 	    </div>
 	   </div>                          
      </div>
