@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.0d7714cc.chunk.css",
+    "main.js": "/Portfolio/static/js/main.a4a9758e.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.a4a9758e.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.42c10d41.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.42c10d41.js.map",
+    "static/js/2.f327f5e1.chunk.js": "/Portfolio/static/js/2.f327f5e1.chunk.js",
+    "static/js/2.f327f5e1.chunk.js.map": "/Portfolio/static/js/2.f327f5e1.chunk.js.map",
+    "index.html": "/Portfolio/index.html",
+    "precache-manifest.835b00e8c0225d4e8cbeef26e61984ed.js": "/Portfolio/precache-manifest.835b00e8c0225d4e8cbeef26e61984ed.js",
+    "service-worker.js": "/Portfolio/service-worker.js",
+    "static/css/main.0d7714cc.chunk.css.map": "/Portfolio/static/css/main.0d7714cc.chunk.css.map",
+    "static/js/2.f327f5e1.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.f327f5e1.chunk.js.LICENSE.txt",
+    "static/media/Shannon M. Kariuki_Resume.pdf": "/Portfolio/static/media/Shannon M. Kariuki_Resume.75ab9194.pdf",
+    "static/media/css.svg": "/Portfolio/static/media/css.0a9813fc.svg",
+    "static/media/App.css": "/Portfolio/static/media/steamlabke.d763ac66.png",
+    "static/media/html5.svg": "/Portfolio/static/media/html5.f0361c5e.svg",
+    "static/media/java.svg": "/Portfolio/static/media/java.bcfad0f2.svg",
+    "static/media/mysql.svg": "/Portfolio/static/media/mysql.f80a91ba.svg",
+    "static/media/profilepic.png": "/Portfolio/static/media/profilepic.d944a3ca.png",
+    "static/media/react.svg": "/Portfolio/static/media/react.05a3e30f.svg",
+    "static/media/redux.svg": "/Portfolio/static/media/redux.aa0a3376.svg",
+    "static/media/typescript.svg": "/Portfolio/static/media/typescript.3de182d2.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.42c10d41.js",
+    "static/js/2.f327f5e1.chunk.js",
+    "static/css/main.0d7714cc.chunk.css",
+    "static/js/main.a4a9758e.chunk.js"
+  ]
+}
