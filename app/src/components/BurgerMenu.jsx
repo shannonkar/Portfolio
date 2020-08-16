@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars} from '@fortawesome/free-solid-svg-icons';
-import RightNav from './RightNav';
+import NavItems from './NavItems';
 
 
 function BurgerMenu(){
@@ -10,14 +10,14 @@ function BurgerMenu(){
             <div>   
     			 <span className="burger-menu">
                     <FontAwesomeIcon 
-                    icon={faBars} 
-                    className = "icon"
-                    size="2x"
-                    open ={open}
-                    onClick ={() => setOpen(!open)}
+                        icon={faBars} 
+                        className = "icon"
+                        size="2x"
+                        open ={open}
+                        onClick ={() => setOpen(!open)}
                      />
                 </span>
-               { open && <RightNav /> }   
+               { open && <NavItems /> }   
             </div>
 		);
 	

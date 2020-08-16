@@ -1,5 +1,5 @@
 import React,{useState, useEffect} from "react";
-import RightNav from './RightNav';
+import NavItems from './NavItems';
 import BurgerMenu from './BurgerMenu';
 
 
@@ -18,7 +18,7 @@ function Navbar(){
 			<div className = "navbar" id="navbar">
 			<div className = "navbar-content">
 				<div>SHANNON M. KARIUKI</div>
-				{isDesktop ? <RightNav />: <BurgerMenu />}
+				{isDesktop ? <NavItems />: <BurgerMenu />}
 			</div>
 	  		</div>
 		);

@@ -1,9 +1,7 @@
 import React from "react";
 import {Link} from "react-scroll";
 
-
-
-function RightNav(){
+function NavItems(){
 		return(
 			<div className="right-nav" >
 					<ul className="navbar-items" >
@@ -12,7 +10,6 @@ function RightNav(){
 						activeClass = "active"
 						to="about"
  						spy={true}
-						navWidth={600}
 						offset={-70}
 						duration = {500}
 						className="nav-link"
@@ -26,11 +23,7 @@ function RightNav(){
 					<Link
 						activeClass = "active"
 						to="technologies"
-						spy={true}
-						navWidth={600}
-						offset={-70}
-						duration = {500}
-						 smooth={true}
+					    smooth={true}
 					>TECHNOLOGIES
 					</Link>
 					</li>
@@ -39,10 +32,6 @@ function RightNav(){
 					<Link
 						activeClass = "active"
 						to="projects"
-						spy={true}
-						navWidth={600}
-						offset={-70}
-						duration = {500}
 						smooth={true}
 					>
 						PROJECTS
@@ -53,11 +42,7 @@ function RightNav(){
 					<Link
 						activeClass = "active"
 						to="experience"
-						spy={true}
-						navWidth={600}
-						offset={-70}
-						duration = {500}
-						 smooth={true}
+					    smooth={true}
 					>
 						EXPERIENCE
 					</Link>
@@ -66,10 +51,6 @@ function RightNav(){
 					<Link
 						activeClass = "active"
 						to="education"
-						spy={true}
-						navWidth={600}
-						offset={-70}
-						duration = {500}
 						smooth={true}
 					>
 						EDUCATION
@@ -81,4 +62,4 @@ function RightNav(){
 		);
 	
 }
-export default RightNav	;
+export default NavItems	;
