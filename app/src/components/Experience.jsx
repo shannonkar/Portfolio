@@ -17,7 +17,7 @@ function Experience(){
             <ul className="description">
             	<li> Developed and maintain the  <a href= "http://www.steamlabke.com/" target="_blank" className="website-link"  rel="noopener noreferrer"> STEAM-LAB-KENYA website </a> </li>
            		<li> Created an "Introduction to Web Development" curriculum to teach high school students the basics of web development</li>
-            	<li> Conduct bi-weekly zoom lessons with 20 high school students </li>
+            	<li> Conduct bi-weekly zoom lessons with 10 high school students </li>
             </ul>
         </div>
 
