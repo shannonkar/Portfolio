@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f7fcaf6254b8d239b7a2722e62d26325",
+    "revision": "d20627617b3068476ea24e8fb9febbe8",
     "url": "/Portfolio/index.html"
   },
   {
-    "revision": "e10ab2913acbd84fb7a7",
-    "url": "/Portfolio/static/css/main.0d7714cc.chunk.css"
+    "revision": "bf8eba8325df716fce5a",
+    "url": "/Portfolio/static/css/main.c736713e.chunk.css"
   },
   {
     "revision": "091e0b00110bc4920872",
@@ -16,20 +16,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/js/2.f327f5e1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e10ab2913acbd84fb7a7",
-    "url": "/Portfolio/static/js/main.a4a9758e.chunk.js"
+    "revision": "bf8eba8325df716fce5a",
+    "url": "/Portfolio/static/js/main.6672708d.chunk.js"
   },
   {
     "revision": "d5aa6f7e9aca8eb23b32",
     "url": "/Portfolio/static/js/runtime-main.42c10d41.js"
   },
   {
-    "revision": "75ab9194564675d0ae0fc48fd2002808",
-    "url": "/Portfolio/static/media/Shannon M. Kariuki_Resume.75ab9194.pdf"
+    "revision": "f970c19755f5fc6db21464d924ffa07d",
+    "url": "/Portfolio/static/media/Shannon M. Kariuki_Resume.f970c197.pdf"
   },
   {
     "revision": "0a9813fcf60fb6dd059aeacbd503980f",
     "url": "/Portfolio/static/media/css.0a9813fc.svg"
+  },
+  {
+    "revision": "9075def13d209743a82aa49eecf68348",
+    "url": "/Portfolio/static/media/expenseTracker.9075def1.png"
   },
   {
     "revision": "17efd8231a2f556f14b18057577dfd7e",
