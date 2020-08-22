@@ -41,8 +41,8 @@ function Projects(){
 							mood.</p>
 						<p> Tech Stack: HTML5, CSS, ReactJS, NodeJS</p>
 	                    <div className="project_links"> 
-							 <a href="" target="_blank" rel="noopener noreferrer">Check it out</a>
-							 <a href="https://github.com/csc4790-fall2019/Moodify" target="_blank" rel="noopener noreferrer">Github Repo </a>
+							 <a href="https://app-moodify-server.herokuapp.com/" target="_blank" rel="noopener noreferrer">Check it out</a>
+							 <a href="https://github.com/shannonkar/Moodify" target="_blank" rel="noopener noreferrer">Github Repo </a>
 						</div>
 	                </div>             
            		 </div>
