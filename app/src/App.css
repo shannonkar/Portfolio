@@ -18,7 +18,7 @@ li{
   display: grid;
   height: 100%;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: auto 1fr 0.5fr 1.7fr 0.5fr 0.5fr 0.1fr;
+  grid-template-rows: auto 1fr 0.5fr 1.7fr 0.5fr 0.5fr 0.5fr 0.1fr ;
   grid-gap: 10px;
   grid-template-areas: 
       "nav nav nav nav" 
@@ -27,6 +27,7 @@ li{
       "projects projects projects projects"
       "experience experience experience experience"
       "education education education education"
+      "leadership leadership leadership leadership"
       "footer footer footer footer"
 
 }
@@ -175,7 +176,9 @@ li{
 .aboutText >span,
 .experience >span,
 .education > span,
-.technologies > span{
+.technologies > span,
+.leadership > span
+{
   display: block;
   width: 70px;
   border-bottom: 4px solid black ;
@@ -270,6 +273,25 @@ li{
 .education .edu .date {
   font-style: italic;
 }
+{/*Leadership*/}
+.leadership{
+   grid-area: leadership;
+   font-size: 16px;
+  padding: 20px;
+  text-align: left;
+}
+.leadership .org{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 5px;
+}
+.leadership .org .role {
+  font-weight: bold;
+}
+.leadership .org .date {
+  font-style: italic;
+}
 
 {/*Footer*/}
 .footer{
@@ -331,6 +353,11 @@ li{
       justify-self: center;
   }
   .experience .exp {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .education .org{
     align-items: center;
     justify-content: center;
     text-align: center;

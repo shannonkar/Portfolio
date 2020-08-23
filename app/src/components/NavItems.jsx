@@ -24,7 +24,7 @@ function NavItems(){
 						activeClass = "active"
 						to="technologies"
 					    smooth={true}
-					>TECHNOLOGIES
+					>TECH SKILLS
 					</Link>
 					</li>
 
@@ -54,6 +54,15 @@ function NavItems(){
 						smooth={true}
 					>
 						EDUCATION
+					</Link>
+					</li>
+						<li className="navbar-item">
+					<Link
+						activeClass = "active"
+						to="leadership"
+						smooth={true}
+					>
+						LEADERSHIP
 					</Link>
 					</li>
 				</ul>
