@@ -27,7 +27,7 @@ function Projects(){
 	                    <p>Created a simple and responsive portfolio that highlights my projects, experience, education, and technical skills</p>
 	                   <p>Tech Stack Used: HTML5,CSS, React</p>
 	                    <div className="project_links"> 
-							 <a href="" target="_blank" rel="noopener noreferrer">Check it out</a>
+							 <a href="https://shannonkar.github.io/Portfolio/" target="_blank" rel="noopener noreferrer">Check it out</a>
 							 <a href="https://github.com/shannonkar/Portfolio" target="_blank"  rel="noopener noreferrer">Github Repo </a>
 						</div>
 	                </div>             
