@@ -1,31 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5437c43c8d9db223e2a5dd73a9fddade",
+    "revision": "bc5eea3e027cc9367e6abf6b5b24e1d9",
     "url": "/Portfolio/index.html"
   },
   {
-    "revision": "f2acfd7db4c61c7f1aea",
-    "url": "/Portfolio/static/css/main.d4c5bf86.chunk.css"
+    "revision": "1fa1b914fbae148cec8e",
+    "url": "/Portfolio/static/css/main.2c93a631.chunk.css"
   },
   {
-    "revision": "091e0b00110bc4920872",
-    "url": "/Portfolio/static/js/2.f327f5e1.chunk.js"
+    "revision": "61ce56cdac461b70bd63",
+    "url": "/Portfolio/static/js/2.262c2cc7.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/Portfolio/static/js/2.f327f5e1.chunk.js.LICENSE.txt"
+    "url": "/Portfolio/static/js/2.262c2cc7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f2acfd7db4c61c7f1aea",
-    "url": "/Portfolio/static/js/main.1e28debd.chunk.js"
+    "revision": "1fa1b914fbae148cec8e",
+    "url": "/Portfolio/static/js/main.6afac839.chunk.js"
   },
   {
     "revision": "d5aa6f7e9aca8eb23b32",
     "url": "/Portfolio/static/js/runtime-main.42c10d41.js"
   },
   {
-    "revision": "9f29ce9db66759383a5b9d722da72765",
-    "url": "/Portfolio/static/media/Shannon M. Kariuki_Resume.9f29ce9d.pdf"
+    "revision": "0720a1c4d56a5efb66ac788e576a464d",
+    "url": "/Portfolio/static/media/Shannon_Kariuki_Resume.0720a1c4.pdf"
   },
   {
     "revision": "0a9813fcf60fb6dd059aeacbd503980f",
@@ -80,7 +80,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/media/steamlabke.d763ac66.png"
   },
   {
-    "revision": "3de182d2120823fe49c27eeb1765c53a",
-    "url": "/Portfolio/static/media/typescript.3de182d2.svg"
+    "revision": "60dfaadbbd65a730821eb0e7b5974020",
+    "url": "/Portfolio/static/media/vue.60dfaadb.svg"
   }
 ]);
