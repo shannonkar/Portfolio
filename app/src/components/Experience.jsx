@@ -15,7 +15,7 @@ function Experience(){
             <span className="date"><FontAwesomeIcon icon={faClock} className = "icon"/>
                 AUG 2020 – Present</span>
             <ul className="description">
-            	<li>Implemented and created asearch interface for adding new data connections for clients using Vue and Vuex </li>
+            	<li>Designed and implemented a search interface for adding new data connections for clients using Vue and Vuex </li>
             </ul>
         </div>
 
