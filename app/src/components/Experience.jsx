@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLaptop, faBuilding, faClock} from '@fortawesome/free-solid-svg-icons'
 
 function Experience(){
-	return( 
+	return(
 		<div className="experience" id="experience">
         <h2>Experience</h2><span></span>
 
@@ -15,7 +15,7 @@ function Experience(){
             <span className="date"><FontAwesomeIcon icon={faClock} className = "icon"/>
                 AUG 2020 – Present</span>
             <ul className="description">
-            	<li>Create a search interface for adding new data connections for clients using Vue and Vuex </li>
+            	<li>Implemented and created asearch interface for adding new data connections for clients using Vue and Vuex </li>
             </ul>
         </div>
 
